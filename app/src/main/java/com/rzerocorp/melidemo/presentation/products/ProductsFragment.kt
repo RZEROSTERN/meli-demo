@@ -7,8 +7,10 @@ import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.rzerocorp.melidemo.R
 import com.rzerocorp.melidemo.databinding.ProductsFragmentBinding
+import com.rzerocorp.melidemo.presentation.products.adapters.ProductAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -27,7 +29,17 @@ class ProductsFragment : Fragment() {
     ): View? {
         binding = ProductsFragmentBinding.inflate(LayoutInflater.from(requireContext()))
 
-        viewModel.fetchProducts()
+        val productsAdapter = ProductAdapter()
+        binding.rvProducts.apply {
+            layoutManager = LinearLayoutManager(requireContext())
+            adapter = productsAdapter
+        }
+
+        viewModel.result.observe(viewLifecycleOwner) {
+            Log.d(this@ProductsFragment.tag, it.site_id)
+            Log.d(this@ProductsFragment.tag, it.results.size.toString())
+            productsAdapter.submitList(it.results)
+        }
 
         return binding.root
     }
@@ -40,7 +52,13 @@ class ProductsFragment : Fragment() {
         searchView.queryHint = "Escribe aquí para buscar..."
 
         searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String?): Boolean = false
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                query?.let {
+                    viewModel.fetchProducts(it)
+                }
+
+                return false
+            }
 
             override fun onQueryTextChange(newText: String?): Boolean {
                 newText?.let {

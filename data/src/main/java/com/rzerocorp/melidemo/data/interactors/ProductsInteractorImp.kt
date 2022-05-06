@@ -8,6 +8,6 @@ class ProductsInteractorImp @Inject constructor(
     private val productsRepositoryImp: ProductsRepositoryImp
     ): ProductsInteractor {
 
-    override suspend fun searchByQuery(): SearchResponse =
-        productsRepositoryImp.searchByQuery()
+    override suspend fun searchByQuery(query: String): SearchResponse =
+        productsRepositoryImp.searchByQuery(query)
 }

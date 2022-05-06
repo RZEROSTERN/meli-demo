@@ -5,5 +5,5 @@ import com.rzerocorp.melidemo.data.network.RestApi
 import javax.inject.Inject
 
 class ProductsRepositoryImp @Inject constructor(private val restApi: RestApi): ProductsRepository {
-    override suspend fun searchByQuery(): SearchResponse = restApi.searchByQuery()
+    override suspend fun searchByQuery(query: String): SearchResponse = restApi.searchByQuery(query)
 }
