@@ -9,7 +9,9 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.viewModels
 import com.rzerocorp.melidemo.R
 import com.rzerocorp.melidemo.databinding.ProductsFragmentBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ProductsFragment : Fragment() {
     private val viewModel: ProductsViewModel by viewModels()
     private lateinit var binding: ProductsFragmentBinding
@@ -24,6 +26,8 @@ class ProductsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = ProductsFragmentBinding.inflate(LayoutInflater.from(requireContext()))
+
+        viewModel.fetchProducts()
 
         return binding.root
     }

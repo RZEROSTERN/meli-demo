@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
 }
@@ -42,11 +43,11 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpinterceptor_version"
 
     // Coroutines
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
+    // implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 
     // Hilt
-    implementation "com.google.dagger:hilt-android:$hilt"
-    kapt "com.google.dagger:hilt-compiler:$hilt"
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-compiler:$hilt_version"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
