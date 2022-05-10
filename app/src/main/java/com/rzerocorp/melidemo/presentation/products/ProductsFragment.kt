@@ -4,23 +4,31 @@ import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.util.Log
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rzerocorp.melidemo.R
 import com.rzerocorp.melidemo.databinding.ProductsFragmentBinding
 import com.rzerocorp.melidemo.presentation.products.adapters.ProductAdapter
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class ProductsFragment : Fragment() {
     private val viewModel: ProductsViewModel by viewModels()
     private lateinit var binding: ProductsFragmentBinding
+    private val productsAdapter = ProductAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
+        val activity = requireActivity() as AppCompatActivity
+        activity.supportActionBar?.title = getString(R.string.product_detail_title)
     }
 
     override fun onCreateView(
@@ -29,7 +37,6 @@ class ProductsFragment : Fragment() {
     ): View? {
         binding = ProductsFragmentBinding.inflate(LayoutInflater.from(requireContext()))
 
-        val productsAdapter = ProductAdapter()
         binding.rvProducts.apply {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = productsAdapter
@@ -38,7 +45,7 @@ class ProductsFragment : Fragment() {
         viewModel.result.observe(viewLifecycleOwner) {
             Log.d(this@ProductsFragment.tag, it.site_id)
             Log.d(this@ProductsFragment.tag, it.results.size.toString())
-            productsAdapter.submitList(it.results)
+            // productsAdapter.submitList(it.results)
         }
 
         return binding.root
@@ -54,7 +61,12 @@ class ProductsFragment : Fragment() {
         searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 query?.let {
-                    viewModel.fetchProducts(it)
+                    // viewModel.fetchProducts(it)
+                    viewLifecycleOwner.lifecycleScope.launch {
+                        viewModel.fetchProducts2(it).collectLatest {
+                            productsAdapter.submitData(it)
+                        }
+                    }
                 }
 
                 return false

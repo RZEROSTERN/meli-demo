@@ -35,7 +35,7 @@
             tools:srcCompat="@drawable/product_image_preview" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txt_price"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -58,10 +58,10 @@
             android:textSize="10sp"
             tools:text="12 x $ 158.25"
             app:layout_constraintStart_toEndOf="@+id/iv_product"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_price" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/txt_has_free_shipping"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"

@@ -8,5 +8,11 @@ data class Product (
     @Json(name="title")
     val title: String,
     @Json(name="thumbnail")
-    val thumbnail: String
+    val thumbnail: String,
+    @Json(name = "price")
+    val price: Double,
+    @Json(name="installments")
+    val installments: Installment?,
+    @Json(name="shipping")
+    val shipping: Shipping
 )
