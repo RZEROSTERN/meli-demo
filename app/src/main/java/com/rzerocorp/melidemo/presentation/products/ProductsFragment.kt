@@ -42,12 +42,6 @@ class ProductsFragment : Fragment() {
             adapter = productsAdapter
         }
 
-        viewModel.result.observe(viewLifecycleOwner) {
-            Log.d(this@ProductsFragment.tag, it.site_id)
-            Log.d(this@ProductsFragment.tag, it.results.size.toString())
-            // productsAdapter.submitList(it.results)
-        }
-
         return binding.root
     }
 
@@ -61,7 +55,6 @@ class ProductsFragment : Fragment() {
         searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean {
                 query?.let {
-                    // viewModel.fetchProducts(it)
                     viewLifecycleOwner.lifecycleScope.launch {
                         viewModel.fetchProducts2(it).collectLatest {
                             productsAdapter.submitData(it)

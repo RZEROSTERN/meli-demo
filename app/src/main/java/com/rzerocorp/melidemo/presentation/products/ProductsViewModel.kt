@@ -25,12 +25,6 @@ class ProductsViewModel @Inject constructor(private val productsInteractor: Prod
     private val productMutable: MutableLiveData<Product> = MutableLiveData()
     val product: LiveData<Product> get() = productMutable
 
-    fun fetchProducts(query: String) {
-        viewModelScope.launch {
-            resultMutable.postValue(productsInteractor.searchByQuery(query, 1))
-        }
-    }
-
     fun fetchProducts2(query: String): Flow<PagingData<Product>> {
         return Pager(
             config = PagingConfig(Constants.PAGE_LIMIT, Constants.PAGE_LIMIT),
