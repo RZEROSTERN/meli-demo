@@ -6,4 +6,11 @@
     <string name="product_detail_title">Detalle de Producto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="installments_legend">Paga en meses</string>
+    <string name="available_stock_caption">Stock disponible</string>
+    <string name="available">disponibles</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="location">Ubicación</string>
+    <string name="description_caption">Descripción</string>
+    <string name="seller_info_caption">Información del vendedor</string>
 </resources>

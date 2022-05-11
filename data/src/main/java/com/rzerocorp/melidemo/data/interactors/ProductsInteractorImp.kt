@@ -12,5 +12,10 @@ class ProductsInteractorImp @Inject constructor(
     override suspend fun searchByQuery(query: String, offset: Int): SearchResponse =
         productsRepositoryImp.searchByQuery(query, offset)
 
-    override suspend fun getProductByID(id: String): Product = productsRepositoryImp.getProductById(id)
+    override suspend fun getProductByID(id: String): Product {
+        val product = productsRepositoryImp.getProductById(id)
+        product.description = productsRepositoryImp.getProductDescription(id)
+        product.seller = productsRepositoryImp.getSellerAddress(product.seller_id.toString())
+        return product
+    }
 }

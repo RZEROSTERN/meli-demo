@@ -6,6 +6,7 @@ class Constants {
         const val REQUEST_TIMEOUT: Long = 30
         const val STORE_ID: String = "MLM"
         const val PAGE_LIMIT: Int = 50
+        const val START_QUERY: String = "videojuegos"
     }
 }
 

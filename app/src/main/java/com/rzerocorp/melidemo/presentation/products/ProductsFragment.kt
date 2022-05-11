@@ -12,6 +12,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rzerocorp.melidemo.R
+import com.rzerocorp.melidemo.data.utils.Constants
 import com.rzerocorp.melidemo.databinding.ProductsFragmentBinding
 import com.rzerocorp.melidemo.presentation.products.adapters.ProductAdapter
 import dagger.hilt.android.AndroidEntryPoint
@@ -28,7 +29,8 @@ class ProductsFragment : Fragment() {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         val activity = requireActivity() as AppCompatActivity
-        activity.supportActionBar?.title = getString(R.string.product_detail_title)
+        activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        activity.supportActionBar?.title = getString(R.string.app_name)
     }
 
     override fun onCreateView(
@@ -40,6 +42,12 @@ class ProductsFragment : Fragment() {
         binding.rvProducts.apply {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = productsAdapter
+        }
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.fetchProducts2(Constants.START_QUERY).collectLatest {
+                productsAdapter.submitData(it)
+            }
         }
 
         return binding.root

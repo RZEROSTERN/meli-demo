@@ -11,8 +11,11 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.ouattararomuald.slider.SliderAdapter
+import com.ouattararomuald.slider.loaders.glide.GlideImageLoaderFactory
 import com.rzerocorp.melidemo.R
 import com.rzerocorp.melidemo.databinding.FragmentProductDetailBinding
+import com.rzerocorp.melidemo.utils.formatAsCurrency
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -30,13 +33,32 @@ class ProductDetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentProductDetailBinding.inflate(inflater, container, false)
+        val imageUrls: ArrayList<String> = ArrayList()
 
         val activity = requireActivity() as AppCompatActivity
         activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         activity.supportActionBar?.title = getString(R.string.product_detail_title)
 
+        binding.imageSlider.isPageIndicatorVisible = false
+
         viewModel.product.observe(viewLifecycleOwner) {
-            Log.d(this@ProductDetailFragment::class.java.canonicalName, it.title)
+            binding.txtProductTitle.text = it.title
+            binding.txtDescription.text = it.description?.plain_text
+            binding.txtPrice.text = it.price.formatAsCurrency()
+            binding.txtAvailableStockQuantity.text =
+                String.format("%d " + getString(R.string.available), it.available_quantity)
+            binding.txtNickname.text =
+                String.format(getString(R.string.username) + "%s", it.seller?.nickname)
+            binding.txtSellerLocation.text =
+                String.format(getString(R.string.location) + "%s, %s",
+                    it.seller_address.city, it.seller_address.state)
+
+            it.pictures?.forEach { picture ->
+                imageUrls.add(picture.secure_url)
+            }
+
+            binding.imageSlider.adapter = SliderAdapter(requireContext(), GlideImageLoaderFactory(), imageUrls)
+            binding.imageSlider.stopAutoLooping()
         }
 
         getInfo()

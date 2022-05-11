@@ -1,6 +1,9 @@
 package com.rzerocorp.melidemo.data.network
 
 import com.rzerocorp.melidemo.data.models.Product
+import com.rzerocorp.melidemo.data.models.ProductDescription
+import com.rzerocorp.melidemo.data.models.Seller
+import com.rzerocorp.melidemo.data.models.SellerAddress
 import com.rzerocorp.melidemo.data.models.responses.SearchResponse
 import com.rzerocorp.melidemo.data.utils.Constants
 import retrofit2.http.GET
@@ -17,4 +20,10 @@ interface RestApi {
 
     @GET("items/{id}")
     suspend fun getProductByID(@Path("id") id: String): Product
+
+    @GET("items/{id}/description")
+    suspend fun getProductDescription(@Path("id") id: String): ProductDescription
+
+    @GET("users/{id}")
+    suspend fun getSellerInfo(@Path("id") id: String): Seller
 }
