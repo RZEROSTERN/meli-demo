@@ -48,10 +48,10 @@ class ProductDetailFragment : Fragment() {
             binding.txtAvailableStockQuantity.text =
                 String.format("%d " + getString(R.string.available), it.available_quantity)
             binding.txtNickname.text =
-                String.format(getString(R.string.username) + "%s", it.seller?.nickname)
+                String.format(getString(R.string.username) + ": %s", it.seller?.nickname)
             binding.txtSellerLocation.text =
-                String.format(getString(R.string.location) + "%s, %s",
-                    it.seller_address.city, it.seller_address.state)
+                String.format(getString(R.string.location) + ": %s, %s",
+                    it.seller_address.city.name, it.seller_address.state.name)
 
             it.pictures?.forEach { picture ->
                 imageUrls.add(picture.secure_url)
@@ -80,7 +80,7 @@ class ProductDetailFragment : Fragment() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId) {
             android.R.id.home -> {
-                findNavController().popBackStack()
+                findNavController().navigate(R.id.action_productDetailFragment_to_productsFragment)
             }
         }
 

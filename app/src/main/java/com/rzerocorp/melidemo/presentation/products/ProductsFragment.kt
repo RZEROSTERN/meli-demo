@@ -10,6 +10,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.rzerocorp.melidemo.R
 import com.rzerocorp.melidemo.data.utils.Constants
@@ -29,7 +30,7 @@ class ProductsFragment : Fragment() {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         val activity = requireActivity() as AppCompatActivity
-        activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        // activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         activity.supportActionBar?.title = getString(R.string.app_name)
     }
 
@@ -74,6 +75,7 @@ class ProductsFragment : Fragment() {
             }
 
             override fun onQueryTextChange(newText: String?): Boolean {
+                productsAdapter.submitData(lifecycle, PagingData.empty())
                 newText?.let {
                     Log.d(this@ProductsFragment.tag, it)
                 }

@@ -32,6 +32,12 @@ class ProductsViewModel @Inject constructor(private val productsInteractor: Prod
         ).flow.cachedIn(viewModelScope)
     }
 
+    fun fetchProducts(query: String) {
+        viewModelScope.launch {
+            productsInteractor.searchByQuery(query, 1)
+        }
+    }
+
     fun getProductByID(id: String) {
         viewModelScope.launch {
             productMutable.postValue(productsInteractor.getProductByID(id))
