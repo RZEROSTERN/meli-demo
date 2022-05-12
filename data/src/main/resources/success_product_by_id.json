@@ -1,0 +1,900 @@
+{
+  "id": "MLM1344785573",
+  "site_id": "MLM",
+  "title": "Zapatilla Dama - D02380135612",
+  "subtitle": null,
+  "seller_id": 188800745,
+  "category_id": "MLM193324",
+  "official_store_id": 166,
+  "price": 659,
+  "base_price": 659,
+  "original_price": null,
+  "currency_id": "MXN",
+  "initial_quantity": 39,
+  "available_quantity": 5,
+  "sold_quantity": 27,
+  "sale_terms": [
+  ],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "start_time": "2021-11-22T21:27:55.000Z",
+  "stop_time": "2041-11-17T04:00:00.000Z",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.mx/MLM-1344785573-zapatilla-dama-d02380135612-_JM",
+  "thumbnail_id": "866740-MLM48649951888_122021",
+  "thumbnail": "http://http2.mlstatic.com/D_866740-MLM48649951888_122021-I.jpg",
+  "secure_thumbnail": "https://http2.mlstatic.com/D_866740-MLM48649951888_122021-I.jpg",
+  "pictures": [
+    {
+      "id": "866740-MLM48649951888_122021",
+      "url": "http://http2.mlstatic.com/D_866740-MLM48649951888_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_866740-MLM48649951888_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "723198-MLM48649951890_122021",
+      "url": "http://http2.mlstatic.com/D_723198-MLM48649951890_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_723198-MLM48649951890_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "766945-MLM48649951885_122021",
+      "url": "http://http2.mlstatic.com/D_766945-MLM48649951885_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_766945-MLM48649951885_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "823721-MLM48649951889_122021",
+      "url": "http://http2.mlstatic.com/D_823721-MLM48649951889_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_823721-MLM48649951889_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "762501-MLM48649951894_122021",
+      "url": "http://http2.mlstatic.com/D_762501-MLM48649951894_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_762501-MLM48649951894_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "754695-MLM48649951898_122021",
+      "url": "http://http2.mlstatic.com/D_754695-MLM48649951898_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_754695-MLM48649951898_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "945398-MLM48649951892_122021",
+      "url": "http://http2.mlstatic.com/D_945398-MLM48649951892_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_945398-MLM48649951892_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "837310-MLM48649951895_122021",
+      "url": "http://http2.mlstatic.com/D_837310-MLM48649951895_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_837310-MLM48649951895_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "689465-MLM48649951891_122021",
+      "url": "http://http2.mlstatic.com/D_689465-MLM48649951891_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_689465-MLM48649951891_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "819209-MLM48649951886_122021",
+      "url": "http://http2.mlstatic.com/D_819209-MLM48649951886_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_819209-MLM48649951886_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "666661-MLM48649951899_122021",
+      "url": "http://http2.mlstatic.com/D_666661-MLM48649951899_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_666661-MLM48649951899_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "943398-MLM48649951900_122021",
+      "url": "http://http2.mlstatic.com/D_943398-MLM48649951900_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_943398-MLM48649951900_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "638579-MLM48636770186_122021",
+      "url": "http://http2.mlstatic.com/D_638579-MLM48636770186_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_638579-MLM48636770186_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "908206-MLM48636770187_122021",
+      "url": "http://http2.mlstatic.com/D_908206-MLM48636770187_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_908206-MLM48636770187_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "952798-MLM48649951887_122021",
+      "url": "http://http2.mlstatic.com/D_952798-MLM48649951887_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_952798-MLM48649951887_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "907177-MLM48649951896_122021",
+      "url": "http://http2.mlstatic.com/D_907177-MLM48649951896_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_907177-MLM48649951896_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "792320-MLM48649951897_122021",
+      "url": "http://http2.mlstatic.com/D_792320-MLM48649951897_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_792320-MLM48649951897_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "976455-MLM48649951893_122021",
+      "url": "http://http2.mlstatic.com/D_976455-MLM48649951893_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_976455-MLM48649951893_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "654498-MLM48637403396_122021",
+      "url": "http://http2.mlstatic.com/D_654498-MLM48637403396_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_654498-MLM48637403396_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "956254-MLM48637403395_122021",
+      "url": "http://http2.mlstatic.com/D_956254-MLM48637403395_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_956254-MLM48637403395_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    },
+    {
+      "id": "910566-MLM48649951883_122021",
+      "url": "http://http2.mlstatic.com/D_910566-MLM48649951883_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_910566-MLM48649951883_122021-O.jpg",
+      "size": "500x318",
+      "max_size": "1395x888",
+      "quality": ""
+    },
+    {
+      "id": "937001-MLM48649951884_122021",
+      "url": "http://http2.mlstatic.com/D_937001-MLM48649951884_122021-O.jpg",
+      "secure_url": "https://http2.mlstatic.com/D_937001-MLM48649951884_122021-O.jpg",
+      "size": "500x241",
+      "max_size": "1434x694",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [
+  ],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [
+  ],
+  "shipping": {
+    "mode": "me2",
+    "free_methods": [
+      {
+        "id": 501245,
+        "rule": {
+          "default": true,
+          "free_mode": "country",
+          "free_shipping_flag": true,
+          "value": null
+        }
+      }
+    ],
+    "tags": [
+      "mandatory_free_shipping"
+    ],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": true,
+    "logistic_type": "xd_drop_off",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxNQ0laVDUzMzI",
+      "name": "Iztapalapa"
+    },
+    "state": {
+      "id": "MX-DIF",
+      "name": "Distrito Federal"
+    },
+    "country": {
+      "id": "MX",
+      "name": "Mexico"
+    },
+    "search_location": {
+      "neighborhood": {
+        "id": "TUxNQlJFTjQyNTk",
+        "name": "Renovación"
+      },
+      "city": {
+        "id": "TUxNQ0laVDUzMzI",
+        "name": "Iztapalapa"
+      },
+      "state": {
+        "id": "TUxNUERJUzYwOTQ",
+        "name": "Distrito Federal"
+      }
+    },
+    "id": 1192743113
+  },
+  "seller_contact": null,
+  "location": {
+  },
+  "coverage_areas": [
+  ],
+  "attributes": [
+    {
+      "id": "BRAND",
+      "name": "Marca",
+      "value_id": "2786387",
+      "value_name": "Dorothy Gaynor",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2786387",
+          "name": "Dorothy Gaynor",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "FOOTWEAR_TYPE",
+      "name": "Tipo de calzado",
+      "value_id": "3675722",
+      "value_name": "Stilletos",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "3675722",
+          "name": "Stilletos",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "GENDER",
+      "name": "Género",
+      "value_id": "339665",
+      "value_name": "Mujer",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "339665",
+          "name": "Mujer",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "HEEL_TYPE",
+      "name": "Tipo de taco",
+      "value_id": "994260",
+      "value_name": "Ancho",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "994260",
+          "name": "Ancho",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "MODEL",
+      "name": "Modelo",
+      "value_id": null,
+      "value_name": "D02380135612",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "D02380135612",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "RELEASE_SEASON",
+      "name": "Temporada de lanzamiento",
+      "value_id": "994283",
+      "value_name": "Primavera/Verano",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "994283",
+          "name": "Primavera/Verano",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "RELEASE_YEAR",
+      "name": "Año de lanzamiento",
+      "value_id": null,
+      "value_name": "2021",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "2021",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    }
+  ],
+  "warnings": [
+  ],
+  "listing_source": "",
+  "variations": [
+    {
+      "id": 173936154223,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3259502",
+          "value_name": "23",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3259502",
+              "name": "23",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 5,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "866740-MLM48649951888_122021",
+        "723198-MLM48649951890_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154220,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3259521",
+          "value_name": "25",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3259521",
+              "name": "25",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 4,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "766945-MLM48649951885_122021",
+        "823721-MLM48649951889_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154219,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189115",
+          "value_name": "26.5",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189115",
+              "name": "26.5",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 1,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "762501-MLM48649951894_122021",
+        "754695-MLM48649951898_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154216,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189109",
+          "value_name": "23.5",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189109",
+              "name": "23.5",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 3,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "945398-MLM48649951892_122021",
+        "837310-MLM48649951895_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154224,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "4147746",
+          "value_name": "26",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "4147746",
+              "name": "26",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 4,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "689465-MLM48649951891_122021",
+        "819209-MLM48649951886_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154226,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3259501",
+          "value_name": "22",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3259501",
+              "name": "22",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 3,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "666661-MLM48649951899_122021",
+        "943398-MLM48649951900_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154222,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189107",
+          "value_name": "22.5",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189107",
+              "name": "22.5",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 2,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "638579-MLM48636770186_122021",
+        "908206-MLM48636770187_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154218,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3259523",
+          "value_name": "27",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3259523",
+              "name": "27",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 1,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "952798-MLM48649951887_122021",
+        "907177-MLM48649951896_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154221,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189111",
+          "value_name": "24.5",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189111",
+              "name": "24.5",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 1,
+      "sold_quantity": 1,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "792320-MLM48649951897_122021",
+        "976455-MLM48649951893_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154217,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189110",
+          "value_name": "24",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189110",
+              "name": "24",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 2,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "654498-MLM48637403396_122021",
+        "956254-MLM48637403395_122021"
+      ],
+      "catalog_product_id": null
+    },
+    {
+      "id": 173936154225,
+      "price": 659,
+      "attribute_combinations": [
+        {
+          "id": "COLOR",
+          "name": "Color",
+          "value_id": null,
+          "value_name": "Plata",
+          "value_struct": null,
+          "values": [
+            {
+              "id": null,
+              "name": "Plata",
+              "struct": null
+            }
+          ]
+        },
+        {
+          "id": "SIZE",
+          "name": "Talla",
+          "value_id": "3189113",
+          "value_name": "25.5",
+          "value_struct": null,
+          "values": [
+            {
+              "id": "3189113",
+              "name": "25.5",
+              "struct": null
+            }
+          ]
+        }
+      ],
+      "available_quantity": 0,
+      "sold_quantity": 1,
+      "sale_terms": [
+      ],
+      "picture_ids": [
+        "910566-MLM48649951883_122021",
+        "937001-MLM48649951884_122021"
+      ],
+      "catalog_product_id": null
+    }
+  ],
+  "status": "active",
+  "sub_status": [
+  ],
+  "tags": [
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "immediate_payment",
+    "cart_eligible"
+  ],
+  "warranty": null,
+  "catalog_product_id": null,
+  "domain_id": "MLM-HEELS_AND_WEDGES",
+  "parent_item_id": null,
+  "differential_pricing": null,
+  "deal_ids": [
+  ],
+  "automatic_relist": false,
+  "date_created": "2021-11-22T21:27:55.000Z",
+  "last_updated": "2022-05-10T23:44:33.828Z",
+  "health": 0.77,
+  "catalog_listing": false,
+  "channels": [
+    "marketplace"
+  ]
+}

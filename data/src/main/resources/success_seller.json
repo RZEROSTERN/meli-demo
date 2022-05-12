@@ -1,0 +1,41 @@
+{
+  "id": 188800745,
+  "nickname": "VARANNIDEMEXICOSADECVVME9",
+  "registration_date": "2015-07-28T11:11:42.000-04:00",
+  "country_id": "MX",
+  "address": {
+    "city": "Iztapalapa",
+    "state": "MX-DIF"
+  },
+  "user_type": "brand",
+  "tags": [
+    "brand",
+    "large_seller"
+  ],
+  "logo": null,
+  "points": 24,
+  "site_id": "MLM",
+  "permalink": "http://perfil.mercadolibre.com.mx/VARANNIDEMEXICOSADECVVME9",
+  "seller_reputation": {
+    "level_id": "5_green",
+    "power_seller_status": "gold",
+    "transactions": {
+      "canceled": 311,
+      "completed": 1850,
+      "period": "historic",
+      "ratings": {
+        "negative": 0.19,
+        "neutral": 0.05,
+        "positive": 0.76
+      },
+      "total": 2161
+    }
+  },
+  "buyer_reputation": {
+    "tags": [
+    ]
+  },
+  "status": {
+    "site_status": "active"
+  }
+}

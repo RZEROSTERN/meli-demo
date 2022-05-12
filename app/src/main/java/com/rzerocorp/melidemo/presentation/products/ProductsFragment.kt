@@ -30,7 +30,6 @@ class ProductsFragment : Fragment() {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
         val activity = requireActivity() as AppCompatActivity
-        // activity.supportActionBar?.setDisplayHomeAsUpEnabled(true)
         activity.supportActionBar?.title = getString(R.string.app_name)
     }
 
